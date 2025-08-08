@@ -20,7 +20,7 @@
     {
         "id": 4,
       "descricao": "camisa",
-      "imagem": "../Dados/images/camisa.jpn",
+      "imagem": "../Dados/images/camisa.jpg",
       "preco": 50.0
     },
     {

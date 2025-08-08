@@ -11,7 +11,7 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: auto;
-    overflow: hidden;
+    overflow-x: hidden;
     padding: 120px 20px;
 }
 
@@ -57,5 +57,5 @@ h1, h2{
     color: red;
     opacity: 1;
     cursor: pointer;
-    transform: rotate(360deg);
+    transform: rotate(150deg);
 }
