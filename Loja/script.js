@@ -17,3 +17,12 @@ window.onload = function () {
   document.getElementById("user").innerText = user.name;
   document.getElementById("idPerfil").innerText = user.id;
 };
+
+document.addEventListener("DOMContentLoaded", function(){
+  //busca dos produtos e armazenamento dos dados na variavel global
+  fetch('../Dados/mock.json').then((response) => response.json())
+                             .then((data) => {
+                              produtos = data
+                              console.log(data)
+                             }).catch((error) => console.error('Erro ao carregar os dados', error))
+});

@@ -1,6 +1,6 @@
 [
     {
-      "id"
+      "id": 1,
       "descricao": "vestido",
       "imagem": "../Dados/images/vestido.jpeg",
       "preco": 200.0
