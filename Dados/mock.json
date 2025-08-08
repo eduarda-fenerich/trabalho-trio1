@@ -1,0 +1,50 @@
+[
+    {
+      "id"
+      "descricao": "vestido",
+      "imagem": "../Dados/images/vestido.jpeg",
+      "preco": 200.0
+    },
+    {
+       "id": 2,
+      "descricao": "calça",
+      "imagem": "../Dados/images/calça.webp",
+      "preco": 135.0
+    },
+    {
+        "id": 3,
+      "descricao": "saia",
+      "imagem": "../Dados/images/saia.webp",
+      "preco": 100.0
+    },
+    {
+        "id": 4,
+      "descricao": "camisa",
+      "imagem": "../Dados/images/camisa.jpn",
+      "preco": 50.0
+    },
+    {
+        "id": 5,
+      "descricao": "macacão",
+      "imagem": "../Dados/images/macacão.png",
+      "preco": 300.0
+    },
+    {
+        "id": 6,
+      "descricao": "camiseta",
+      "imagem": "../Dados/images/camiseta.jpg",
+      "preco":  35.0
+    },
+    {
+        "id": 7,
+      "descricao": "meia calça",
+      "imagem": "../Dados/images/meiacalça.jpg",
+      "preco":  25.0
+    },
+    {
+        "id": 8,
+      "descricao": "meia",
+      "imagem": "../Dados/images/me.webp",
+      "preco":  15.0
+    }
+]

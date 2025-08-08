@@ -1,1 +1,2 @@
-# trabalho-trio1
+# trabalho-trio
+mercadinho de produtod locais 
