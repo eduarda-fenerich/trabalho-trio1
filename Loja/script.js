@@ -32,10 +32,14 @@ document.addEventListener("DOMContentLoaded", function(){
                                 card.className = 'card'
                                 card.style.width = '18rem'
                                 card.style.marginRight = '10px'
+                                card.style.marginBottom = '10px'
 
                                 const imagem = document.createElement('img')
                                 imagem.src = produto.imagem
                                 imagem.className = 'card-img-top'
+                                imagem.style.height = '10rem'
+                                imagem.style.width = 'fit-content'
+                                imagem.style.alignSelf = 'center'                             
 
                                 const cardBody = document.createElement('div')
                                 cardBody.className = 'card-body'
@@ -50,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
                                 const btnAdicionarAoCarrinho = document.createElement('a')
                                 btnAdicionarAoCarrinho.href = '#'
-                                btnAdicionarAoCarrinho.className = 'btn btn-primary btn-adicionar-ao-carrinho'
+                                btnAdicionarAoCarrinho.className = 'btn btn-danger btn btn-outline-danger btn sm btn btn-primary btn-adicionar-ao-carrinho'
                                 btnAdicionarAoCarrinho.textContent = 'Adicionar ao carrinho'
                                 btnAdicionarAoCarrinho.setAttribute('data-indice', index)
 
