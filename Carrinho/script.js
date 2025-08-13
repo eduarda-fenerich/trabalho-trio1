@@ -44,6 +44,8 @@ function gerarPedido(){
 
     const listaClone = listaElement.cloneNode(true)
 
+    $(listaClone).find('button').remove()
+
     const listaHtml = listaClone.innerHTML
     const totalHtml = totalElement.innerHTML
 
